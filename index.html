@@ -1,110 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      body {
-      font-family:  "Lucida Sans Unicode","Lucida Grande",sans-serif;
-      }
-
-      .sidenav {
-      height: 98%;
-      width: 160px;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #ccc;
-      overflow-x: hidden;
-      padding-top: 20px;
-      }
-
-      .sidenav a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 15px;
-      color: #818181;
-      display: block;
-      }
-
-      .sidenav a:hover {
-      color: #f1f1f1;
-      }
-
-      .main {
-      margin-left: 160px; /* Same as the width of the sidenav */
-      font-size: 15px; /* Increased text to enable scrolling */
-      padding: 0px 10px;
-      font-family:  "Lucida Sans Unicode","Lucida Grande",sans-serif;
-      }
-
-      @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-      }
-    </style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
     <title>Xiantong Wang</title>
   </head>
 
+  <body>
+    <include src="./sidenav.html"></include>
 
+    <div class="sidenav">
+      <a class="active" href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv_xtwang.pdf" target="_empty">CV</a>
+      <a href="miscellaneous.html">Miscellaneous</a>
+      <center>
+        <div style="position: absolute; left: 0; right: 0; bottom: 0">
+          <img src="logo.png" alt="logo" style="width: 100px" />
+        </div>
+      </center>
+    </div>
 
+    <div class="main">
+      <img
+        src="xtwang.jpg"
+        alt="Xiantong"
+        style="float: right; width: 150px; border-right: #f9f9f9 12px solid"
+      />
 
-  <div class="sidenav">    
-    <a class="active" href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="cv_xtwang.pdf">CV</a>
-    <a href="miscellaneous.html">Miscellaneous</a>
-    <center>
-      <div style="position:absolute;left:0;right:0;bottom:0;">
-	<img src="logo.png" alt="logo" style="width:100px">
-      </div>
-    </center>
-  </div>
+      <h2>Xiantong Wang</h2>
+      <h3>王 贤曈</h3>
 
+      Ph.D. Student<br />
+      <strong>Email:</strong> xtwang AT umich DOT edu<br /><br />
 
-  <div class="main">
-    <img src="xtwang.jpg" alt="Xiantong" style="float: right;width:150px; border-right: #F9F9F9 12px solid">
+      <address>
+        <a href="http://clasp.engin.umich.edu">
+          Climate and Space Science and Engineering </a
+        ><br />
+        University of Michigan, Ann Arbor<br />
+        2109 Climate and Space Research Building<br />
+        2455 Hayward St.<br />
+        Ann Arbor, MI 48109
+      </address>
 
-    <h2>Xiantong Wang</h2>
-    <h3>王 贤曈</h3>
+      <hr class="style13" />
 
-</a>Ph.D.  Student<br>
-<strong>Email:</strong> xtwang AT umich DOT edu<br><br>
+      <h3>Research Interests</h3>
+      <ul>
+        <li>Space Science</li>
+        <li>Numerical Modeling</li>
+        <li>Machine Learning Applications</li>
+      </ul>
 
-
-
-<address>
-  <a href = "http://clasp.engin.umich.edu"> Climate and Space Science and Engineering </a><br>
-  University of Michigan, Ann Arbor<br>
-  2109 Climate and Space Research Building<br>
-  2455 Hayward St.<br>
-  Ann Arbor, MI 48109
-</address>
-
-
-<hr class="style13"></hr>
-
-
-
-<h3>Research Interests</h3>
-<ul>
-  <li>Space Weather Modeling</li>
-  <li>Computational Plasma Physics</li>
-</ul>
-
-<h3>Education</h3>
-<ul>
-  <li>Ph.D. Student, University of Michigan - Ann Arbor, 2017-present</li>
-  <li>B.S., University of Science and Technology of China, 2013-2017</li>
-</ul>
-
-
-
-<br><br><br><br>
-
-</body>
-</div>
+      <h3>Education</h3>
+      <ul>
+        <li>
+          Ph.D. Student, Climate and Space Sciences and Engineering & Scientific
+          Computing, University of Michigan - Ann Arbor, 2017-present
+        </li>
+        <li>
+          M.S., Climate and Space Sciences and Engineering, University of
+          Michigan - Ann Arbor, 2019.8
+        </li>
+        <li>
+          B.S., Geophysics, University of Science and Technology of China,
+          2017.6
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
